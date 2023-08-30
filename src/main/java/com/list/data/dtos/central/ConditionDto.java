@@ -1,4 +1,4 @@
-package com.list.data.dtos.parsed;
+package com.list.data.dtos.central;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,7 +9,7 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class WeaponTypeDto {
+public class ConditionDto {
     private Long id;
-    private String type;
+    private String condition;
 }

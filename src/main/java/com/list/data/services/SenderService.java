@@ -1,6 +1,6 @@
 package com.list.data.services;
 
-import com.list.data.dtos.parsed.ItemDto;
+import com.list.data.dtos.central.ItemDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;

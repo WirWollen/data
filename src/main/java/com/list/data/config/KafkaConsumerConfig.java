@@ -1,6 +1,6 @@
 package com.list.data.config;
 
-import com.list.data.dtos.parsed.ItemDto;
+import com.list.data.dtos.central.ItemDto;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.common.serialization.LongDeserializer;
 import org.apache.kafka.common.serialization.StringDeserializer;
