@@ -2,7 +2,7 @@ package com.list.data.config;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.list.data.dtos.parsed.ItemDto;
+import com.list.data.dtos.central.ItemDto;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 

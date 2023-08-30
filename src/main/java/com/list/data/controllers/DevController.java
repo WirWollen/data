@@ -15,5 +15,6 @@ public class DevController {
     @GetMapping
     public boolean startParse() {
         return updateDBService.parseAllItems();
+//        return updateDBService.dev();
     }
 }
